@@ -1,0 +1,10 @@
+
+{{- if .Text}}
+  <!-- Wraping in the same paragraph, otherwise it'll get wrapped into another p and mess up padding -->
+  <figure style="text-align: center;">
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}/>
+    <figcaption>{{ .Text}}</figcaption>
+  </figure>
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}/> 
+{{- end -}}
