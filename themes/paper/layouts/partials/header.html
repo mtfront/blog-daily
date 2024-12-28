@@ -71,6 +71,7 @@
       <a
         class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
         href="{{ .URL }}"
+        {{ if eq .Name "blog" }}target="_blank"{{ end }}
         >{{ .Name }}</a
       >
       {{ end }}

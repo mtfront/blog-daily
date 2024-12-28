@@ -7,4 +7,4 @@ comments = false
 
 一个喜欢写博客的人。
 
-博客站：[椒盐豆豉](https://blog.douchi.space?utm_source=daily)
+一个更长的 [about](https://blog.douchi.space/docs/about/?utm_source=daily)。

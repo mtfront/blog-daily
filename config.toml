@@ -47,3 +47,8 @@ description = "日常碎碎念和博客之间记录时间流逝的介质。"
     name = "About"
     url = "/about/"
     weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "https://blog.douchi.space"
+    weight = 10
