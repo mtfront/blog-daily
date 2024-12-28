@@ -2,6 +2,7 @@ baseURL = 'https://daily.douchi.space/public'
 languageCode = 'en-us'
 title = '椒盐 daily'
 theme = "paper"
+description = "日常碎碎念和博客之间记录时间流逝的介质。"
 
 # https://themes.gohugo.io/themes/hugo-paper/
 
@@ -17,7 +18,7 @@ theme = "paper"
   # home page profile
   avatar = 'https://media.douchi.space/douchi/accounts/avatars/000/000/001/original/40c89c24d6524a14.gif'                 # gravatar email or image url
   name = '椒盐豆豉'
-  bio = '日常碎碎念和博客之间，总要有点记录时间流逝的介质。'
+  bio = '日常碎碎念和博客之间记录时间流逝的介质。'
 
   # misc
   disableHLJS = true                        # disable highlight.js
@@ -36,7 +37,7 @@ theme = "paper"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-      
+
   [markup.highlight]
     style = 'paraiso-light'     # style demos https://pygments.org/demo/
 
