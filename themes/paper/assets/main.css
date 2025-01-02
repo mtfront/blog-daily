@@ -129,6 +129,12 @@ Add the correct font weight in Edge and Safari.
 b,
 strong {
   font-weight: bolder;
+  margin: 0 -0.3em;
+    padding: 0 0.3em;
+    border-radius: 0.6em 0.3em;
+    background: 0 0;
+    background-image: linear-gradient(to right, #7aa8744c,  rgba(122, 168, 116, 0.1));
+    -webkit-box-decoration-break: clone;
 }
 
 /*
