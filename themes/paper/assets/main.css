@@ -2040,3 +2040,13 @@ article .highlight {
 .tk-avatar-img {
   margin-top: 0px;
 }
+
+.tag {
+  display: inline;
+  padding: 0 4px;
+  border-radius: 2px;
+  font-size: 0.75em;
+  /* background: var(--tw-prose-hr); */
+  background:var(--tag-color);
+  color: var(--tw-prose-body);
+}
