@@ -28,6 +28,7 @@ description = "介于日常碎碎念和博客之间的对时间流逝的死缠�
   math = true                               # enable KaTeX math typesetting globally
   localKatex = false                        # use local KaTeX js/css instead of CDN
   favicon = "https://media.douchi.space/douchi/accounts/avatars/000/000/001/original/40c89c24d6524a14.gif"                   # customize the default favicon
+  appleTouchIcon = "https://media.douchi.space/douchi/accounts/avatars/000/000/001/original/40c89c24d6524a14.gif"   # inoreader seems to use this
 
   # RTL supprot
   # direction = "rtl"                         # RTL support for Right-to-left languages
