@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = '椒盐 daily'
 theme = "paper"
 description = "介于日常碎碎念和博客之间的对时间流逝的死缠烂打。"
+paginate = 100
 
 # https://themes.gohugo.io/themes/hugo-paper/
 
