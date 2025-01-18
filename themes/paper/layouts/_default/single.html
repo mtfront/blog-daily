@@ -55,6 +55,7 @@
   {{ end }}<!---->
   {{ end }}
 
+  {{- partial "reaction.html" . -}}
   <!-- Twikoo -->
   {{ if (not (eq .Params.comments false)) }}
     <div id="tcomment"></div>

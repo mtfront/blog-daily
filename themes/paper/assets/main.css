@@ -2050,3 +2050,30 @@ article .highlight {
   background:var(--tag-color);
   color: var(--tw-prose-body);
 }
+
+open-heart {
+  border: 0.5px solid var(--tw-prose-green-code);
+  border-radius: .4em;
+  padding: 2px 8px;
+}
+open-heart:not([disabled]):hover,
+open-heart:not([disabled]):focus {
+  border-color: var(--tw-prose-bullets) ;
+  cursor: pointer;
+}
+open-heart[disabled] {
+  cursor: not-allowed;
+  background-color: var(--tw-prose-green-code);
+  color: #fff;
+}
+open-heart[count]:not([count="0"])::after {
+  padding-left: 4px;
+  content: attr(count);
+  color: var(--tw-prose-body)
+}
+
+.reaction-container {
+  display: flex;
+  margin-top: 16px;
+  gap: 8px;
+}
