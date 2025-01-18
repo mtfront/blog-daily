@@ -55,6 +55,7 @@
   {{ end }}<!---->
   {{ end }}
 
+  {{ if eq (getenv "HUGO_ENV") "production" }}
   {{- partial "reaction.html" . -}}
   <!-- Twikoo -->
   {{ if (not (eq .Params.comments false)) }}
@@ -70,6 +71,7 @@
         })
     </script>
   </div>
+  {{ end }}
   {{ end }}
 
   <!-- Disqus -->
