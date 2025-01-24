@@ -1524,12 +1524,20 @@ pre {
   line-height: 1rem;
 }
 
+.text-xss {
+  font-size: 0.6rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.no-transform {
+  text-transform: none;
 }
 
 .\!leading-\[1\.2\] {

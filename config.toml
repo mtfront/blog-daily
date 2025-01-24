@@ -4,6 +4,8 @@ title = '椒盐 daily'
 theme = "paper"
 description = "介于日常碎碎念和博客之间的对时间流逝的死缠烂打。"
 paginate = 100
+Copyright = "© 椒盐豆豉 Mt. Front 版权所有，禁止转载，转发需注明出处"
+enableRobotsTXT = true
 
 # https://themes.gohugo.io/themes/hugo-paper/
 
