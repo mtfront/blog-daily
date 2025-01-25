@@ -56,3 +56,6 @@ enableRobotsTXT = true
     name = "Blog"
     url = "https://blog.douchi.space"
     weight = 10
+
+[services.rss]
+  limit = 10
