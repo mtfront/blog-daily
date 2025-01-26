@@ -898,7 +898,7 @@ pre {
 
 .prose :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   width: 100%;
-  table-layout: auto;
+  table-layout: fixed;
   margin-top: 2em;
   margin-bottom: 2em;
   font-size: 0.875em;
