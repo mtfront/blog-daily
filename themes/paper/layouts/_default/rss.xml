@@ -1,0 +1,17 @@
+<rss version="2.0">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.description }}</description>
+    {{- $limit := .Site.Config.Services.RSS.Limit }}
+    {{- $pages := .Site.RegularPages | first $limit }}
+    {{ range $pages }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <guid>{{ .Permalink }}</guid>
+        <description>Read about {{ time .Params.date | time.Format "Jan 2, 2006" }} on original site</description>
+      </item>
+    {{ end }}
+  </channel>
+</rss>
