@@ -54,7 +54,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "https://blog.douchi.space"
+    url = "https://blog.douchi.space?utm_source=daily"
     weight = 10
 
 [services.rss]
