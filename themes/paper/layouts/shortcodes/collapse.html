@@ -1,7 +1,12 @@
 
 <details {{ if or (.Get "open") (in .Params "open") }}open{{ end }}>
   {{- $summary := .Get "summary" -}}
-  <summary>{{ $summary | .Page.RenderString }}</summary>
+  <summary>
+    {{ if or (.Get "url") (in .Params "url") }}
+      <a href="{{ .Get "url" }}" target="_blank" class="summary-title">{{ $summary | .Page.RenderString }}</a>
+    {{ else }}
+      {{ $summary | .Page.RenderString }}
+    {{ end }} </summary>
   <div class="markdown-inner">
     {{ .Inner | .Page.RenderString }}
   </div>
